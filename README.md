@@ -9,7 +9,7 @@
 2. Téléchargez les packages nécessaires en exécutant la commande suivante :
 
     ```bash
-    pip install azure msrest pyautogui pillow
+    pip install azure msrest pyautogui pil
     ```
 
 3. Remplacez l'endpoint et la clé de souscription par vos informations créées sur Microsoft Azure (OCR). Cette étape est cruciale pour garantir le bon fonctionnement de l'application.
