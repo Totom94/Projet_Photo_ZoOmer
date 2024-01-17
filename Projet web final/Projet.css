@@ -1,0 +1,386 @@
+/* PAGE ACCUEIL */
+
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+
+h1 {
+  position: relative;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+  
+
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  width: 80%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+
+table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+
+table td {
+  color: rgb(0, 0, 0); 
+}
+
+
+.photo_acc {
+  display: block;
+}
+
+/* Reconnaissance boutons*/
+.button-container {
+  position: absolute;
+  top: 45%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+/* boutons page accueil */
+.Prj_acc {
+  display: block;
+  padding: 10px 12px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  border: 3px solid green;
+  margin-bottom: 170px;
+  margin-top: 150px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Prj_acc_propos{
+  display: inline-block;
+  padding: 10px 12px;
+  position: absolute;
+  left: 45%;
+  width: fit-content; 
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 150%;
+  text-decoration: none;
+  border: 3px solid green;
+  transform: translateX(-50%);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Prj_acc_Satisf {
+  display: inline-block;
+  padding: 10px 12px;
+  position: absolute;
+  left: 25%;
+  width: fit-content; 
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 150%;
+  text-decoration: none;
+  border: 3px solid green;
+  transform: translateX(-50%);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Prj_acc_Rec {
+  display: inline-block;
+  padding: 10px 12px;
+  position: absolute;
+  left: 75%;
+  width: fit-content; 
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 150%;
+  text-decoration: none;
+  border: 3px solid green;
+  transform: translateX(-50%);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Prj_acc:hover {
+  background-color: green;
+  color: #ffffff;
+}
+
+/* bouton à propos */
+.propos {
+  position: absolute;
+  left: 50%;
+  top: auto;
+  transform: translateX(-50%);
+  transition: background-color 0.3s;
+}
+
+.propos:hover {
+  background-color: green;
+  color: #ffffff;
+}
+
+
+/* bouton fichier */
+.fichier-btn {
+  clear: left;
+  font-size: 125%;
+}
+
+
+.but_site{
+  text-align: center;
+}
+
+.contexte{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption {
+  font-size: 24px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  flex: 1;
+  margin: 10px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid black;
+  padding: 5px;
+  margin-right: 10px;
+  background-color: black;
+}
+
+.end_acc{
+  text-align: center;
+}
+
+
+body{
+  background-color: rgb(255, 255, 255);
+  font-size : 150%;
+}
+
+td.c2{
+  background-color: crimson;
+}
+
+td.c3{
+  background-color: darkred;
+  color: #ffffff;
+}
+
+/*-----------------------------------------------------------------*/
+
+/*SATISFACTION*/
+
+
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+header .image {
+  position: relative;
+  width: 100%;
+}
+
+header .image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 50%;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 80%);
+  object-fit: cover;
+}
+
+header .button-containerv2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+/* Boutons header */
+.Satisfaction {
+  display: block;
+  padding: 10px 12px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  border: 3px solid green;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Satisfaction.acc {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.Satisfaction.reco {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+}
+
+.Satisfaction:hover {
+  background-color: green;
+  color: #ffffff;
+}
+
+/* Titre */
+h2 {
+  position: relative;
+  z-index: 1;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+/* Formulaire */
+form {
+  margin-top: 20px;
+}
+
+fieldset {
+  margin-bottom: 6px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+/* Bouton "Envoyer la note" */
+#sendRating {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Bouton "Envoyer" */
+#submitInfo {
+  display: block;
+  margin-top: 6px;
+}
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+/* Bouton "À propos de l'équipe" */
+footer a {
+  display: inline-block;
+  padding: 10px 12px;
+  width: fit-content; 
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 150%;
+  text-decoration: none;
+  border: 3px solid green;
+  position: absolute;
+  top: 250px; 
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Image section */
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-container {
+  flex: 1;
+  margin: auto;
+  margin-bottom: 10px;
+  max-width: 50%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  position: center;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: black;
+}
+
+
+/*--------------------- A propos ----------------------*/
+
+.button-container_apropos{
+  display: block;
+  padding: 10px 12px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  border: 3px solid green;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1.A_propos{
+  text-decoration-line: underline;
+  text-align: center;
+}
+
+#linksatisf{
+  display: block;
+  padding: 10px 12px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  border: 3px solid green;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;;
+}
+
