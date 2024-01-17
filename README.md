@@ -1,5 +1,8 @@
 # Projet Aide pour Malvoyants
 
+
+Ce projet vise à faciliter l'accessibilité visuelle en développant une application de reconnaissance de textes et un site web accompagnateur. L'application, principalement codée en Python, permet de convertir des textes à partir d'images ou de photos, fournissant une version agrandie et nette pour les utilisateurs malvoyants. 
+
 ## Application
 
 ### Configuration de l'Application
