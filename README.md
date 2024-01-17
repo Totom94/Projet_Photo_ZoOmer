@@ -1,4 +1,4 @@
-# Projet de Reconnaissance de Textes - README
+# Projet Aide pour Malvoyants
 
 ## Application
 
